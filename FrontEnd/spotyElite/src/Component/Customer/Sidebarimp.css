@@ -1,0 +1,36 @@
+.app-container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 200px;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .property-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .property-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  
+  .property-name-list, .price-range-list, .location-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .property-name-item, .price-range-item, .location-item {
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  

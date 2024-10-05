@@ -1,0 +1,125 @@
+/* OwnerPage.css */
+
+/* Basic Layout */
+
+.owner-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    left:400px;
+    background-color: #f4f4f4;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #3b8ddf;
+    height: 100vh;
+    width:200vw;
+  }
+  
+  /* Button to open modal */
+  .owner-page .ant-btn {
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .owner-page .ant-btn:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Modal Styles */
+  .ant-modal {
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .ant-modal-header {
+    background-color: #007bff;
+    color: white;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .ant-modal-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .ant-modal-footer {
+    border-top: 1px solid #ddd;
+  }
+  
+  /* Form Box Styling */
+  .ant-form {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form Item Styles */
+  .ant-form-item {
+    margin-bottom: 16px;
+  }
+  
+  .ant-form-item-label {
+    font-weight: bold;
+  }
+  
+  .ant-input,
+  .ant-date-picker,
+  .ant-select {
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ant-input {
+    border-color: #ced4da;
+  }
+  
+  .ant-input:hover,
+  .ant-select:hover {
+    border-color: #007bff;
+  }
+  
+  .ant-date-picker {
+    border-color: #ced4da;
+  }
+  
+  .ant-date-picker:hover {
+    border-color: #007bff;
+  }
+  
+  .ant-btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 4px;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  .ant-btn-primary:hover,
+  .ant-btn-primary:focus {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .owner-page {
+      padding: 10px;
+    }
+  
+    .owner-page .ant-btn {
+      width: 100%;
+    }
+  }
+  

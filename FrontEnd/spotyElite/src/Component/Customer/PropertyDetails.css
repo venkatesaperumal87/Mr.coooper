@@ -1,0 +1,32 @@
+/* PropertyDetails.css */
+.property-detail {
+    padding: 20px;
+}
+
+.property-images img {
+    max-width: 100%;
+    height: auto;
+    margin: 5px;
+}
+
+.property-stats {
+    margin: 10px 0;
+}
+
+.add-comment {
+    margin-top: 20px;
+}
+
+.add-comment .MuiTextField-root {
+    width: 100%;
+}
+
+.add-comment .MuiButton-root {
+    margin-top: 10px;
+}
+
+.modal-content {
+    padding: 20px;
+    background: #fff;
+    border-radius: 4px;
+}
